@@ -17,9 +17,9 @@ export default function Collatz() {
                   The Collatz Conjecture, also known as the 3n + 1 problem, is an unsolved problem in mathematics proposed by Lothar Collatz in 1937. It involves a sequence defined as follows:
                 </p>
                 <ul className="text-gray-500 dark:text-gray-400 md:text-xl list-disc list-inside">
-                  <li>Start with any positive integer 𝑛.</li>
-                  <li>If 𝑛 is even, divide it by 2.</li>
-                  <li>If 𝑛 is odd, multiply it by 3 and add 1.</li>
+                  <li>Start with any positive integer <span className="italic">n</span>.</li>
+                  <li>If <span className="italic">n</span> is even, divide it by 2.</li>
+                  <li>If <span className="italic">n</span> is odd, multiply it by 3 and add 1.</li>
                   <li>Repeat these steps with the resulting value.</li>
                 </ul>
                 <p className="text-gray-500 dark:text-gray-400 md:text-xl">
@@ -43,7 +43,7 @@ export default function Collatz() {
                   History of the Collatz Conjecture
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400 md:text-lg">
-                  The Collatz Conjecture was first introduced by Lothar Collatz in 1937. Despite its seemingly simple definition, it has baffled mathematicians for decades. The problem is also known as the "3n + 1 problem" and is related to various fields of mathematics, including number theory and dynamical systems.
+                  The Collatz Conjecture was first introduced by Lothar Collatz in 1937. Despite its seemingly simple definition, it has baffled mathematicians for decades. The problem is also known as the &quot;3n + 1 problem&quot; and is related to various fields of mathematics, including number theory and dynamical systems.
                 </p>
               </div>
               <div className="space-y-4">
@@ -51,12 +51,12 @@ export default function Collatz() {
                   Understanding the Collatz Conjecture
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400 md:text-lg">
-                  To restate, the Collatz Conjecture involves starting with any positive integer 𝑛 and applying the following rules:
+                  To restate, the Collatz Conjecture involves starting with any positive integer <span className="italic">n</span> and applying the following rules:
                 </p>
                 <ul className="text-gray-500 dark:text-gray-400 md:text-lg list-disc list-inside">
-                  <li>If 𝑛 is even, divide it by 2.</li>
-                  <li>If 𝑛 is odd, multiply it by 3 and add 1.</li>
-                  <li>Repeat the process with the new value of 𝑛.</li>
+                  <li>If <span className="italic">n</span> is even, divide it by 2.</li>
+                  <li>If <span className="italic">n</span> is odd, multiply it by 3 and add 1.</li>
+                  <li>Repeat the process with the new value of <span className="italic">n</span>.</li>
                 </ul>
                 <p className="text-gray-500 dark:text-gray-400 md:text-lg">
                   The conjecture states that no matter what positive integer you start with, the sequence will eventually reach 1.

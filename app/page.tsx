@@ -13,7 +13,7 @@ export default function Home() {
                   Unraveling the Mysteries of Mathematics
                 </h1>
                 <p className="text-gray-500 dark:text-gray-400 md:text-xl">
-                  Explore the history and significance of the world's most
+                  Explore the history and significance of the world&apos;s most
                   challenging mathematical problems, from the Riemann Hypothesis
                   to the Navier-Stokes Equations.
                 </p>
